@@ -1,16 +1,24 @@
-package com.kwang.sunshine.data;/*
-
-import android.content.ContentUris;
-import android.net.Uri;
-import android.provider.BaseColumns;
-
-/**
- * Defines table and column names for the weather database.
+/*
+ * Copyright (C) 2014 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
  */
+package com.kwang.sunshine.data;
 
 import android.content.ContentUris;
 import android.net.Uri;
 import android.provider.BaseColumns;
+
 /**
  * Defines table and column names for the weather database.
  */
@@ -20,7 +28,7 @@ public class WeatherContract {
     // relationship between a domain name and its website.  A convenient string to use for the
     // content authority is the package name for the app, which is guaranteed to be unique on the
     // device.
-    public static final String CONTENT_AUTHORITY = "com.kwang.sunshine.app";
+    public static final String CONTENT_AUTHORITY = "com.kwang.sunshine";
 
     // Use CONTENT_AUTHORITY to create the base of all URI's which apps will use to contact
     // the content provider.
